@@ -26,9 +26,6 @@ func palindrome(nama string) {
 	fmt.Printf("Captured : %v\n", nama) //print input
 	fmt.Print("Invert   : ")            //print invert
 
-	for i := len(nama) - 1; i >= 0; i-- {
-		fmt.Print(string(nama[i]))
-	}
 
 	if verif == true {
 		fmt.Println("\nPalindrome")
