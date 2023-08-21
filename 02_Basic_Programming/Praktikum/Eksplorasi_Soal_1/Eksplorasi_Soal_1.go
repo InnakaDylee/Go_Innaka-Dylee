@@ -15,8 +15,6 @@ func palindrome(nama string) {
 	nameLower := strings.ToLower(nama)
 
 	for i := 0; i < len(nama)/2; i++ { //verif palindrome
-		fmt.Println(nama[i])
-		fmt.Println(nama[len(nama)-i-1])
 		if nameLower[i] == nameLower[len(nama)-i-1] {
 			verif = true
 		} else {
@@ -25,6 +23,10 @@ func palindrome(nama string) {
 	}
 	fmt.Printf("Captured : %v\n", nama) //print input
 	fmt.Print("Invert   : ")            //print invert
+
+	for i := len(nama) - 1; i >= 0; i-- {
+		fmt.Print(string(nama[i]))
+	}
 
 	if verif == true {
 		fmt.Println("\nPalindrome")
