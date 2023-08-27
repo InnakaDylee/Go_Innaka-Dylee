@@ -151,7 +151,3 @@
             return value * value
         }
         ```
-
-
-
-

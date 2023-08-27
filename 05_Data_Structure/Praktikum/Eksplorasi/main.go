@@ -14,10 +14,10 @@ func main() {
 	for _, row := range matrix {
 		fmt.Println(row)
 	}
-	
 	fmt.Print("\nResult: ")
 	fmt.Println(diffDiagonal(matrix))
 }
+
 func diffDiagonal(matrix [][]int) int {
 	result := 0
 	for i := 0; i < len(matrix); i++ {
