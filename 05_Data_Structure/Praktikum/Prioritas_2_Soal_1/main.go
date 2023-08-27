@@ -23,8 +23,6 @@ func PairSum(arr []int, target int) []int {
 
 func main() {
 
-// Test cases
-
 fmt.Println(PairSum([]int{1, 2, 3, 4, 6}, 6)) // [1, 3]
 
 fmt.Println(PairSum([]int{2, 5, 9, 11}, 11)) // [0, 2]

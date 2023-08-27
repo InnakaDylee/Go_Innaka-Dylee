@@ -19,8 +19,6 @@ func ArrayMerge(arrayA, arrayB []string) []string {
 
 func main() {
 
-	// Test cases
-
 	fmt.Println(ArrayMerge([]string{"king", "devil jin", "akuma"}, []string{"eddie", "steve", "geese"}))
 
 	// ["king", "devil jin", "akuma", "eddie", "steve", "geese"]

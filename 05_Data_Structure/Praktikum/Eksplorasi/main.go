@@ -18,7 +18,6 @@ func main() {
 	fmt.Print("\nResult: ")
 	fmt.Println(diffDiagonal(matrix))
 }
-
 func diffDiagonal(matrix [][]int) int {
 	result := 0
 	for i := 0; i < len(matrix); i++ {

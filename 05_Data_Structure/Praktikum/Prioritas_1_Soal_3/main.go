@@ -24,8 +24,6 @@ func munculSekali(angka string) []int {
 
 func main() {
 
-	// Test cases
-
 	fmt.Println(munculSekali("1234123")) // [4]
 
 	fmt.Println(munculSekali("76523752")) // [6 3]
