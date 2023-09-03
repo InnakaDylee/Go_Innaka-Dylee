@@ -49,5 +49,5 @@ func main() {
 	fmt.Println(primeX(5))  // 11
 	fmt.Println(primeX(8))  // 19
 	fmt.Println(primeX(9))  // 23
-	fmt.Println(primeX(26)) // 29
+	fmt.Println(primeX(10)) // 29
 }
