@@ -20,15 +20,4 @@ func pascal(n int) [][]int {
 func main() {
 	n := 5
 	fmt.Println(pascal(n))
-	// pascalTriangle := pascal(n)
-
-	// for i := 0; i < n; i++ {
-	// 	for j := 0; j < n-i-1; j++ {
-	// 		fmt.Print("  ")
-	// 	}
-	// 	for j := 0; j <= i; j++ {
-	// 		fmt.Printf("%4d", pascalTriangle[i][j])
-	// 	}
-	// 	fmt.Println()
-	// }
 }

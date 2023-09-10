@@ -4,9 +4,9 @@ import "fmt"
 
 func SimpleEquations(a, b, c int) {
 	var result [][]int
-	for i := 1; i <= a; i++ {// 1  2
-		for j := 1; j <= b; j++ {//1   2   3456
-			for k := 1; k <= c; k++ {//1234..14
+	for i := 1; i <= a; i++ {
+		for j := 1; j <= b; j++ {
+			for k := 1; k <= c; k++ {
 				if i+j+k == a && i*j*k == b && i*i+j*j+k*k == c {
 					result = append(result, []int{i, j, k})
 				}

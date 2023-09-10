@@ -21,6 +21,6 @@ func generateBinaryRepresentation(n int) []int {
 }
 
 func main() {
-	fmt.Println(generateBinaryRepresentation(5)) // Output: [0 1 10]
-	fmt.Println(generateBinaryRepresentation(10)) // Output: [0 1 10 11]
+	fmt.Println(generateBinaryRepresentation(2)) // Output: [0 1 10]
+	fmt.Println(generateBinaryRepresentation(3)) // Output: [0 1 10 11]
 }
