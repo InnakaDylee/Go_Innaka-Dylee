@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "e622f290-a027-445f-b3e7-79df57fa9430",
+		"name": "Latihan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28965200"
+	},
+	"item": [
+		{
+			"name": "Skenario 1",
+			"item": [
+				{
+					"name": "get-all-data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "get-data-by-id",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "post-data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"userId\": 1,\r\n        \"title\": \"test post\",\r\n        \"body\": \"postingan\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://jsonplaceholder.typicode.com/posts"
+					},
+					"response": []
+				},
+				{
+					"name": "delete-data",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "https://jsonplaceholder.typicode.com/posts/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Skenario 2",
+			"item": [
+				{
+					"name": "get-all-data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "post-new-user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/user"
+					},
+					"response": []
+				},
+				{
+					"name": "put-user",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/user"
+					},
+					"response": []
+				},
+				{
+					"name": "delete-user",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/user/1"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
